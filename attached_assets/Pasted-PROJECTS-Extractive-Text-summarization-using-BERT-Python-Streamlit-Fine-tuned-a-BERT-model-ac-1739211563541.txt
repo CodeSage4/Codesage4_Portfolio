@@ -1,0 +1,50 @@
+PROJECTS
+Extractive Text summarization using BERT | Python, Streamlit
+• Fine-tuned a BERT model achieving an accuracy of 85% on a custom dataset.
+• Developed a Streamlit web app for easy model interaction and deployment.
+ResNet18-Driven Real-Time Classical Dance Recognition with Trustworthiness Verification via Explainable AI
+(XAI): Developed a ResNet18-based model to classify classical Indian dance forms from live video feed in real-time.
+• Integrated key feature extraction for live video detection and classification.
+• Employed Grad-CAM++ for model interpretation, ensuring explainability and verifying that the model is not influenced by
+irrelevant features or noise.
+• Optimized model performance to ensure accurate classification and real-time detection, with high interpretability for
+responsible AI.
+• Technologies: ResNet18, PyTorch, Grad-CAM++, OpenCV
+Developed game prototypes in Godot, with a focus on character movement, physics, and interactive gameplay.
+• Implemented slime character logic, fixed movement bugs, and optimized wall collision handling.
+• Collaborated with a team to design game mechanics and AI behavior.
+• Technologies: Godot, GDScript
+EXPERIENCE
+Internship cum Minor Project | Co-Agent - Multi-Agent Conversational Framework Library
+ProdigalAI | Remote September – December 2024
+• Automated Blog-to-Post Transformation: Leveraged AI agents for web scraping, data formatting, and LinkedIn
+optimization, reducing post creation time by 40% and boosting engagement.
+• Collaborative Multi-Agent System: Enabled iterative content refinement using Google Gemini for advanced NLP and
+dynamic task delegation.
+• User-Friendly Interface: Built a Streamlit UI for live input and previews, enhancing user experience.
+• Seamless Integration: Published the framework as a Python package on PyPI for easy adoption and scalability.
+Technologies: Python, Streamlit, Poetry, Google Gemini API, Multi-Agent Systems, Git/GitHub
+Internship | Shoe Size Estimation using A4 paper as a reference
+Kaptable / Remote June 2024 – August 2024
+• Developed and optimized models for foot detection and measurement, improving accuracy by 15%.
+• Implemented a reference scaling mechanism using A4 paper dimensions, achieving precise shoe size calculations with an
+error margin of 2mm.
+• Leveraged cloud infrastructure (AWS) for efficient model deployment and performance optimization.
+Internship | Hindi OCR (optical character recognition) on video
+University School of Automation and Robotics / Onsite August 2023 – September 2023
+• Developed a real-time Hindi OCR system using YOLOv8 for object detection and EasyOCR for text extraction.
+• Successfully deployed the system, improving text extraction efficiency from video by 30%.
+TECHNICAL SKILLS
+Languages: Python, Java
+Libraries: Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, Django, Streamlit, Beautiful Soup, OpenCV
+Tools: VScode, Git, Github, PowerBI, Docker
+Frameworks: PyTorch, TensorFlow, Godot
+Cloud/Databases: Relational Database (MySQL), MongoDB
+Relevant Coursework: Artificial Intelligence, Machine Learning, Natural Language Processing (NLP), Computer Vision, Data
+Analysis, Predictive Analysis, Deep Learning, Reinforcement Learning, Large Language Model, Data Structures & Algorithms,
+Operating Systems, Object Oriented Programming, Database Management System, Software Engineering
+Areas of Interest: Gen AI, LLM (Large Language Model), Machine learning, Web Design and Development, Artificial
+intelligence, Natural language processing, Deep learning, Data analytics, Data preprocessing, GAN.
+Soft Skills: Problem Solving, Self-learning, Presentation, Adaptability, Quick learning, Team Work
+CERTIFICATIONS
+Data Science & Machine Learning Certification | IBM SkillsBuild
