@@ -13,5 +13,14 @@ app.get('/api/hello', (req: Request, res: Response) => {
   res.json({ message: 'Hello from the API!' });
 });
 
+// For Vercel, we need to handle the root path as well
+app.all('*', (req: Request, res: Response) => {
+  res.json({ 
+    message: 'API endpoint not found',
+    requestedPath: req.path,
+    method: req.method
+  });
+});
+
 // Export the Express API
 export default app; 

@@ -3,10 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deployment Test</title>
+  <title>My Application</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #333;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 20px;
+      background-color: #f9f9f9;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #apiResult {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-radius: 4px;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      margin-right: 15px;
+      color: #0066cc;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Deployment Test Page</h1>
-  <p>If you can see this, the static file serving is working!</p>
+  <h1>My Application</h1>
+  <p>Welcome to my application deployed on Vercel!</p>
+  
+  <nav>
+    <a href="/static/index.html">Go to Static Test Page</a>
+    <a href="/api/hello">Direct API Test</a>
+  </nav>
+  
+  <div class="card">
+    <h2>API Test</h2>
+    <p>Click the button below to test the API connection:</p>
+    <button onclick="testApi()">Test API</button>
+    <div id="apiResult"></div>
+  </div>
+
+  <script>
+    async function testApi() {
+      const resultDiv = document.getElementById('apiResult');
+      resultDiv.innerHTML = 'Loading...';
+      
+      try {
+        const response = await fetch('/api/hello');
+        const data = await response.json();
+        resultDiv.innerHTML = `API Response: ${JSON.stringify(data)}`;
+      } catch (error) {
+        resultDiv.innerHTML = `Error: ${error.message}`;
+      }
+    }
+  </script>
 </body>
 </html> 
