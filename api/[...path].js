@@ -1,5 +1,5 @@
 // Catch-all API handler for Vercel
-export default function handler(req, res) {
+module.exports = function(req, res) {
   const { path } = req.query;
   
   res.status(404).json({ 

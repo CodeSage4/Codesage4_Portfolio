@@ -1,4 +1,4 @@
 // Simple Vercel serverless function
-export default function handler(req, res) {
+module.exports = function(req, res) {
   res.status(200).json({ message: 'Hello from the API!' });
 } 
